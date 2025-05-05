@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#F8F8F8"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:src="@drawable/logo_blood" />
+
+    <!-- Doctor 1 -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="List Of Doctors:"
+        android:paddingLeft="60dp"
+        android:textColor="#000000"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/doctorNameTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="20dp"
+        android:textColor="@color/primary_dark"
+        android:text="Doctor Name: Dr. Meenakshi Sinha" />
+
+    <TextView
+        android:id="@+id/contactNumberTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:paddingLeft="20dp"
+        android:textColor="@color/primary_dark"
+        android:text="Contact Number: +91 XXXXXXXXX" />
+
+    <TextView
+        android:id="@+id/addressTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:paddingLeft="20dp"
+        android:textColor="@color/primary_dark"
+        android:text="Address: MLM Hospital" />
+
+    <!-- Doctor 2 -->
+    <TextView
+        android:id="@+id/doctorNameTextView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="20dp"
+        android:textColor="@color/primary_dark"
+        android:text="Doctor Name: Dr. Sanjay Kapoor" />
+
+    <TextView
+        android:id="@+id/contactNumberTextView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:paddingLeft="20dp"
+        android:textColor="@color/primary_dark"
+        android:text="Contact Number: +91 XXXXXXXXX" />
+
+    <TextView
+        android:id="@+id/addressTextView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:paddingLeft="20dp"
+        android:textColor="@color/primary_dark"
+        android:text="Address: Apollo Hospital, Sec-45, Gurgaon" />
+
+    <!-- Doctor 3 -->
+    <TextView
+        android:id="@+id/doctorNameTextView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="20dp"
+        android:textColor="@color/primary_dark"
+        android:text="Doctor Name: Dr. Arpit Sharma" />
+
+    <TextView
+        android:id="@+id/contactNumberTextView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:paddingLeft="20dp"
+        android:textColor="@color/primary_dark"
+        android:text="Contact Number: +91 XXXXXXXXX" />
+
+    <TextView
+        android:id="@+id/addressTextView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/primary_dark"
+        android:paddingLeft="20dp"
+        android:text="Address: OneLife Clinic, Rewari" />
+
+
+</LinearLayout>
+
